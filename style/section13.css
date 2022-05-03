@@ -1,0 +1,49 @@
+.section-13{
+    display: flex;
+    background-color: #ff4e00;
+    padding: 80px 0;
+   justify-content: center;
+}
+.section13-togle{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-left: 50px;
+}
+.togle-item{
+    display: flex;
+    width: 100%;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    padding: 15px 0 15px 30px;
+    border-radius: 20px;
+}
+
+.togle-item p{
+    padding-left: 10px;
+    color: #3e3e3e;
+    font-size: 18px;
+}
+.togle-item i{
+    color:#3e3e3e;
+}
+.togle-item:hover{
+    background-color: #0f245c;
+}
+
+.togle-item:hover p, .togle-item:hover i{
+    color: #ffffff;
+}
+
+
+@media screen and (max-width:768px){
+    .togle-item {
+        width: 85%;
+    }
+    .togle-item p{
+        font-size: 14px;
+    }
+    .togle-item i{
+        font-size: 14px;
+    }
+}

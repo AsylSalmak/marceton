@@ -1,0 +1,71 @@
+.section-10{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 90px 0;
+    background-color: #2db8f5;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://template66383.motopreview.com/mt-demo/66300/66383/mt-content/uploads/2018/03/mt-1378-home2-bg2.png);
+}
+.section-10 .section-title {
+    color: #ffffff;
+}
+
+.section10-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    margin-top: 50px;
+}
+
+.section10-item{
+    width: 25%;
+    background-color: #ffff;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    border: 3px solid #d1dceb ;
+
+}
+
+.hr-grey{
+    width: 80%;
+    height: 1px;
+    color: #000;
+    background-color: #d1dceb;
+}
+
+.section10-item h2{
+    color: #242424;
+    font-size: 24px;
+}
+
+.section10-item h1{
+    color: #ff4e00;
+    font-size: 90px;
+}
+.section10-item p{
+    color: #9e9898;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.section10-item ul{
+    text-align: center;
+    margin: 10px 0;
+    margin-bottom: 50px;
+}
+.section10-item ul li {
+    line-height: 26px;
+}
+.section10-item button{
+    margin-bottom: 20px;
+}
+.section10-item:hover{
+    border: 3px solid #ff4e00;
+}
