@@ -1,0 +1,24 @@
+{
+  "name": "marceton",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AsylSalmak/marceton.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AsylSalmak/marceton/issues"
+  },
+  "homepage": "https://github.com/AsylSalmak/marceton#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
