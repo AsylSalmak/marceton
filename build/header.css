@@ -32,33 +32,49 @@ header {
     padding: 10px 30px;
 }
 
-.orange-btn:hover,
-.white-btn:hover,.btn orange-btn:hover
- {
+.orange-btn:hover , .white-btn:hover, .transparent-btn:hover{
     background-color: #0F356C;
+    color: #FFF;
     border: none;
 }
+
 .transparent-btn:hover {
-    background-color: #0F356C;
     border: 2px solid #0F356C;
-
 }
 
-@media screen and  (max-width: 1024px) {
-.header-nav{
-    width: 35%;
-}
+header .icon {
+    display: none;
+    color: #FF4E00;
+    font-size: 20px;
 }
 
-
-@media screen and (max-width:768px){
+@media screen and (max-width: 1024px){
     .header-nav {
-        width: 45%;
+        width: 35%;
     }
-    .header-nav a {
-        font-size: 14px;
+}
+
+@media screen and (max-width: 768px){
+    header {
+        padding: 0;
     }
-    .orange-btn{
-        font-size: 12px;
+
+    .header-nav {
+        width: 40%;
     }
+}
+
+@media screen and (max-width: 425px){
+    header {
+       flex-direction: column;
+       padding: 3rem 0;
+    }
+    .header-nav{
+        display: none;
+    }
+    header .icon{
+        display: flex;
+        margin: 20px 0;
+    }
+
 }

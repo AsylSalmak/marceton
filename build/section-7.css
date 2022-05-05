@@ -1,0 +1,53 @@
+.section7-block {
+    width: 90%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section7-item h1 {
+    color: #2db8f5;
+    font-size: 90px;
+}
+
+.section7-item p {
+    color: #242424;
+    font-size: 20px;
+    text-align: center;
+    line-height: 22px;
+}
+
+@media screen and (max-width: 1024px){
+    .section7-item h1  {
+        font-size: 45px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .section7-block {
+        width: 95%;
+    }
+
+    .section7-item h1 {
+        font-size: 36px;
+    }
+
+    .section7-item p {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 425px){
+    .section7-block {
+        flex-wrap: wrap;
+    }
+    .section7-item{
+        width: 90%;
+    }
+    .section7-block .section7-item:not(:last-child){
+        margin: 20px;
+    }
+    .section7-item p{
+        font-size: 20px;
+    }
+}

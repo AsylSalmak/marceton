@@ -1,0 +1,109 @@
+.section-10 {
+    background-color: #2db8f5;
+    background-image: url('https://template66383.motopreview.com/mt-demo/66300/66383/mt-content/uploads/2018/03/mt-1378-home2-bg2.png');
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 90px 0;
+}
+
+.section-10 .section-title {
+    color: #ffffff;
+}
+
+.section10-block {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.section10-item {
+    width: 25%;
+    background-color: #FFFFFF;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    border: 3px solid #d1dceb;
+}
+
+.hr-grey {
+    width: 80%;
+    height: 1px;
+    background-color: #d1dceb;
+}
+
+.section10-item h2 {
+    color: #242424;
+    font-size: 24px;
+}
+
+.section10-item h1 {
+    color:#FF4E00;
+    font-size: 90px;
+}
+
+.section10-item p{
+    color: #9a9898;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.section10-item ul {
+    text-align: center;
+    margin: 10px 0;
+    margin-bottom: 50px;
+}
+
+.section10-item ul li {
+    line-height: 26px;
+}
+
+.section10-item button {
+    margin-bottom: 20px;
+}
+
+.section10-item:hover {
+    border-color:#FF4E00 ;
+}
+
+@media screen and (max-width: 768px){
+    .section10-item h1 {
+        font-size: 45px;
+    }
+
+    .section10-block {
+        width: 95%;
+    }
+
+    .section10-item {
+        width: 23%;
+    }
+
+    .section10-item .padding{
+        padding: 20px 40px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .section10-block{
+        flex-wrap: wrap;
+        width: 90%;
+    }
+    .section10-item{
+        width: 100%;
+    }
+
+    .section10-block .section10-item:not(:last-child){
+      margin-bottom: 20px;
+    }
+
+    .section-10{
+        background-image: none;
+        padding: 50px 0;
+    }
+}

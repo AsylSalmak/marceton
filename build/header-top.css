@@ -1,6 +1,6 @@
 .header-top {
     display: flex;
-    background-color: #e3eaf3;
+    background-color: #E3EAF3;
     height: 40px;
     justify-content: space-around;
     align-items: center;
@@ -13,7 +13,7 @@
 }
 
 .nav-link i {
-    color: #ff4e00;
+    color: #FF4E00;
     font-size: 12px;
 }
 
@@ -24,7 +24,7 @@
     padding-left: 10px;
 }
 
-.nav-link a:hover {
+.nav-link-a:hover {
     color: #FF4E00;
 }
 
@@ -39,6 +39,7 @@
     padding: 2px;
     text-decoration: none;
 }
+
 .nav-link .nav-icon:not(:nth-child(1)){
     margin-left: 10px;
 }
@@ -52,8 +53,20 @@
     background-color: #FF4E00;
 }
 
-@media screen and (max-width:768px){
-    .nav-link-a {
-       font-size: 12px;
+@media screen and (max-width: 768px){
+    .header-top {
+        padding: 1rem;
+    }
+}
+
+
+@media screen and (max-width: 425px){
+    .header-top {
+        flex-direction: column;
+        align-items: flex-start;
+        height: 120px;
+    }
+    .header-top .nav-link:not(:last-child){
+        margin-bottom: 20px;
     }
 }
