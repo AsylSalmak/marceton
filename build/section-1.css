@@ -1,6 +1,5 @@
 .section-1 {
     background-image: url('https://template66383.motopreview.com/mt-demo/66300/66383/mt-content/uploads/2018/03/mt-1378-home3-header-bg.jpg');
-    height: 120vh;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -99,7 +98,7 @@
     .section1-txt p{
      line-height: 22px;
      font-size: 16px;
-    } 
+    }
     .section1-btn{
         flex-direction: column;
         align-items: center;
